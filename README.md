@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in Perl when working with hashes.  Accessing a non-existent hash key returns undef, which can lead to unexpected program behavior if not handled carefully. The `bug.pl` file contains the buggy code, while `bugSolution.pl` shows how to solve the problem using defined().
